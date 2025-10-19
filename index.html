@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+   <meta charset="UTF-8">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <title>Edina's Portfolio</title>
+   <link rel="stylesheet" href="style.css">
+   <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@1,500&display=swap" rel="stylesheet">
+</head>
+<body>
+    <nav class="custom-nav">
+        <h5><a href="resume.html">Resume</a></h5>
+        <h5><a href="#">Let's Connect!</a></h5>
+        <h5><a href="#">Contact Me</a></h5>
+    </nav>
+   <h2>Hello, I'm <i>Edina Rozi</i></h2>
+   <p>I am at fourth year undergraduate student at UC Berkeley studying Cognitive Science and Media Studies.
+       I have a passion for UI/UX design and making people's lives easier.</p>
+   <img src = "images/headshot.JPG"
+   alt = "Headshot"/>
+
+
+   <p>Some of my hobbies include:</p>
+   <ul>
+       <li>Knitting/crocheting</li>
+       <li>Baking sourdough bread</li>
+       <li>Befriending crows</li>
+       <li>Meditation and hiking</li>
+       <li>Powerboating in the Bay</li>
+   </ul>
+
+
+   <img src = "images/stars.png"
+   alt = "Stars"
+   class = "stars-image"
+   />
+
+
+   <h3>My Projects</h3>
+
+
+   <h4>Zillow Redesign</h4>
+   <img src = "images/zillowredesign.png"
+   alt = "Zillow Redesign"/>
+
+
+   <h4>SquareTrade Manufacturer Referral Training Course</h4>
+   <img src = "images/mfr.png"
+   alt = "SquareTrade MFR Referral Course"/>
+
+
+   <h4>Uyghur Home Kitchen Logo Redesign</h4>
+   <img src = "images/UyghurHomeKitchenLogo.png"
+   alt = "Uyghur Home Kitchen Logo"/>
+
+
+   <h3>Contact me!</h3>
+  
+   <div id="contact-container">
+       <button id="show-contact-form">Send a Message</button>
+  
+       <div id="contact-form" style="display: none; margin-top: 15px;">
+           <form id="contactForm">
+               <label for="name">Name:</label><br/>
+               <input type="text" id="name" name="name" required><br/><br/>
+  
+               <label for="message">Message:</label><br/>
+               <textarea id="message" name="message" rows="4" cols="30" required></textarea><br/><br/>
+  
+               <button type="submit">Submit</button>
+           </form>
+       </div>
+   </div>
+
+
+   <script src="script.js"></script>
+</body>
+</html>

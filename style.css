@@ -1,0 +1,80 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Helvetica Neue', sans-serif;
+    line-height: 1.6;
+    background-color: #fdfdfd;
+    color: #333;
+    padding: 20px;
+    max-width: 900px;
+    margin: auto;
+}
+
+.custom-nav {
+    display: flex;
+    justify-content: flex-end;
+    gap: 20px;
+    padding: 15px 20px;
+}
+
+.custom-nav h5 {
+    margin: 0;
+    font-size: 0.95rem;
+}
+
+.custom-nav a {
+    text-decoration: none;
+    color: black;
+    transition: color 0.3s ease;
+}
+
+.custom-nav a:hover {
+    color: #ffd166;
+}
+h2 {
+    font-size: 2rem;
+    margin: 20px 0 10px;
+    color: black;
+}
+
+h3 {
+    font-size: 1.5rem;
+    margin: 30px 0 10px;
+    color: #ffd166;
+}
+
+h4 {
+    font-size: 1.2rem;
+    margin: 20px 0 5px;
+    color: black;
+}
+
+/* Paragraph and List Styling */
+p {
+    margin-bottom: 15px;
+    font-size: 1rem;
+}
+
+ul {
+    margin-left: 20px;
+    margin-bottom: 20px;
+}
+
+li {
+    margin-bottom: 5px;
+}
+
+img {
+    width: 100%;
+    max-width: 400px;
+    display: block;
+}
+
+.stars-image {
+    width: 10%;
+    display: block;
+}
